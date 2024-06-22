@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "name": "IPhone 14",
+      "price": 250000,
+      "code": "C-04",
+      "isAvailable": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat doloribus autem ipsa iste illum optio! Error reprehenderit magnam debitis rerum hic dolorum fuga ducimus excepturi. Alias repellendus nulla facilis quasi.",
+      "image": "/assets/IPhone 14.jpeg",
+      "manufacturingDate": "Wed May 23 2024 17:39:16 GMT+0530 (India Standard Time)",
+      "id": "4"
+    },
+    {
+      "name": "Apple Watch",
+      "price": 55000,
+      "code": "C-05",
+      "isAvailable": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat doloribus autem ipsa iste illum optio! Error reprehenderit magnam debitis rerum hic dolorum fuga ducimus excepturi. Alias repellendus nulla facilis quasi.",
+      "image": "/assets/Apple Watch.jpeg",
+      "manufacturingDate": "Tue May 22 2024 17:39:16 GMT+0530 (India Standard Time)",
+      "id": "5"
+    },
+    {
+      "name": "LG Washing Machine",
+      "price": 43000,
+      "code": "C-06",
+      "isAvailable": true,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat doloribus autem ipsa iste illum optio! Error reprehenderit magnam debitis rerum hic dolorum fuga ducimus excepturi. Alias repellendus nulla facilis quasi.",
+      "image": "/assets/LG-Washing.jpeg",
+      "manufacturingDate": "Mon March 21 2024 17:39:16 GMT+0530 (India Standard Time)",
+      "id": "6"
+    },
+    {
+      "id": "57c2",
+      "name": "Lenovo Laptop",
+      "price": 100000,
+      "code": "L-1",
+      "isAvailable": "true",
+      "description": "Laptop",
+      "image": "/assets/LGTV.jpg",
+      "manufacturingDate": "2024-06-22T16:54:28.044Z"
+    }
+  ],
+  "User": [
+    {
+      "id": "1",
+      "Name": "Neha"
+    },
+    {
+      "id": "2",
+      "Name": "Ketan"
+    }
+  ]
+}

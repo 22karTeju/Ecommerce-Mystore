@@ -1,0 +1,17 @@
+<!----here, product$ is the local obervable getting the result from the service when we call the getOne(id), async pipe 
+is used to subscribe and later unsubscribe  from this obervable, prob is the  variable name that will refer the product 
+returned by the observable-->
+
+<div class="row" *ngIf="product$ | async as prod">
+    <div class="mt-3">
+        <button class="btn btn-primary col-3" (click)="goBack()">Back</button>
+    </div>
+    <div class="col mt-3">
+        <img [src]="prod.image" [ngStyle]="{'width': '50%'}">
+    </div>
+    <div class="col mt-3">
+        <h3>{{prod.name | uppercase}}</h3>
+        <h4>{{prod.price | currency: 'INR'}}</h4>
+        <h5>{{prod.description}}</h5>
+    </div>
+</div>
